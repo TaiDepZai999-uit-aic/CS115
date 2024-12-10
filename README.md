@@ -12,6 +12,20 @@
  * **DiabetesPedigreeFunction**: Diabetes pedigree function
  * **Age**: Age (years)
  * **Outcome**: Class variable (0 or 1)
-
+# Models and Methods
+- Data cleaning and Feature selection:
+  * Identify and exclude outliers.
+  * Tackle with Null values with 4 methods: Drop Null, Fill Null with 0 and global mean, KNN Imputer techniques.
+  * Utilizing GridSearchCV to find optimal hyperparameters for models.
+  * Calculating Correlation between each feature with target in order to select the most impactful features.
+- Models choosing:
+  * Decision tree
+  * Random forest
+  * Bagging
+  * Gradient Boosting
 # Results
+- The result in based on Accuracy score with different features used and models.
 ![Screenshot 2024-12-09 205526](https://github.com/user-attachments/assets/374281d1-5bc3-4f40-857d-604edcced167)
+
+# Demo application
+![Screenshot 2024-12-09 212844](https://github.com/user-attachments/assets/84e0f32f-1cc6-4e15-8785-54d6ee168303)
