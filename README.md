@@ -23,6 +23,8 @@
   * Random forest
   * Bagging
   * Gradient Boosting
+  * XGBoosting
+- Comparison between handling outliers and non-handling outliers.
 # Results
 - The result in based on Accuracy score with different features used and models.
 ![Screenshot 2024-12-09 205526](https://github.com/user-attachments/assets/374281d1-5bc3-4f40-857d-604edcced167)
